@@ -11,6 +11,8 @@ public class Module1Tests {
 	}
 	
 	public static void main(String args[]){
+	
+	//Remove duplicates and sort a string + adding next values	
 		String s="1234 534 12";
 		ArrayList<Character> li = new ArrayList<Character>();
 		for(int i=0;i<s.length();i++){
@@ -27,6 +29,11 @@ public class Module1Tests {
 		}
 		
 		System.out.println(ts);		
+		
+	//Adding number without any arithmetic operator
+		int a=10, b=20;
+		System.out.println("Sum is: "+Integer.sum(a, b));
+		
 	}
 
 }
